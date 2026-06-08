@@ -13,6 +13,7 @@ To reduce manual verification effort and time.
 To improve accuracy in certificate validation.
 To prevent fraud in educational and professional recruitment processes.
 To provide a secure and reliable certificate verification mechanism.
+'''
 ER Diagram
 +------------------+
 |      USER        |
@@ -60,6 +61,7 @@ ER Diagram
 | Status           |
 | Remarks          |
 +------------------+
+'''
 Entities
 User – Uploads certificates for verification.
 Certificate – Stores certificate information.
