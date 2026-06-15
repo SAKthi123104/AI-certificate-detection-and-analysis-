@@ -75,7 +75,7 @@ One AI Analysis generates one Verification Result.
 This ER diagram is suitable for a mini project, academic project, or web application for certificate verification and fraud detection.
 
 FRONTEND CODING : 
-``
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -361,4 +361,4 @@ function verifyCertificate(){
 </body>
 </html>
 
-``
+```
