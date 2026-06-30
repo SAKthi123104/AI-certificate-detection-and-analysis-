@@ -1,0 +1,29 @@
+FRONTEND
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Certificate Analyser</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f4f4f9; margin: 0; padding: 40px; }
+    h1 { color: #333; }
+    form { background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    input[type="file"], button {
+      display: block; margin: 15px 0; padding: 10px; width: 100%;
+    }
+    button { background: #4CAF50; color: white; border: none; cursor: pointer; }
+    button:hover { background: #45a049; }
+  </style>
+</head>
+<body>
+  <h1>AI Certificate Analyser</h1>
+  <form action="/upload" method="post" enctype="multipart/form-data">
+    <label>Upload Certificate File:</label>
+    <input type="file" name="file" accept=".jpg,.png,.pdf" required>
+    <button type="submit">Analyse Certificate</button>
+  </form>
+</body>
+</html>
+```
