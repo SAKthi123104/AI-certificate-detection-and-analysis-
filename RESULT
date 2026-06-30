@@ -1,0 +1,29 @@
+result 
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Certificate Result</title>
+  <style>
+    body { font-family: Arial; margin: 30px; background: #f9f9f9; }
+    h2 { color: #333; }
+    .valid { color: green; font-weight: bold; }
+    .fake { color: red; font-weight: bold; }
+    .card { background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    pre { background: #eee; padding: 10px; border-radius: 5px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>Upload Result</h2>
+    <p>✅ File uploaded: {{ filename }}</p>
+    <p class="{{ 'valid' if status.startswith('✅') else 'fake' }}">
+      Status: {{ status }}
+    </p>
+    <h3>Extracted Content:</h3>
+    <pre>{{ content }}</pre>
+  </div>
+</body>
+</html>
+```
